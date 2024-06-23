@@ -1,0 +1,10 @@
+
+*.o
+*.exe
+*.class
+/bin/
+
+**/.idea/
+*.iml
+
+*.pyc

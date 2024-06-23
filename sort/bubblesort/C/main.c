@@ -10,7 +10,7 @@ void printArray(const int array[], const int size);
 
 int main(void)
 {
-    srand(time(NULL));
+    srand(time(NULL)); /*randomiza gerador de número aleatório*/
 
     int array[SIZE];
     
@@ -21,9 +21,9 @@ int main(void)
 }
 
 
+/*Preenche array com inteiros aleatórios entre 0 e 1000*/
 void geraArray(int array[], const int size)
 {
-    /*Preenche array com inteiros aleatórios entre 0 e 1000*/
     for(int i = 0; i < SIZE; i++) {
         array[i] = rand() % 1000;
     }

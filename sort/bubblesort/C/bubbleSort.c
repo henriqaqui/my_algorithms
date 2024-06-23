@@ -1,5 +1,6 @@
 #include "bubbleSort.h"
 
+/*ordena array com o algoritmo bubbleshort*/
 void bubbleSort( int vetor[], const int size)
 {
     int fim = size - 1; //posição do último array
@@ -20,6 +21,7 @@ void bubbleSort( int vetor[], const int size)
 }
 
 
+/*faz a troca de valores nos locais de memória passados*/
 void troca(int *a, int *b)
 {
     int aux = *a;
